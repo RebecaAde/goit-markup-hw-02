@@ -24,13 +24,51 @@ body {
   font-style: normal;
   font-family: "Roboto" sans-serif;
 }
-.btn {
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.btn-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+  color: #212121;
+  cursor: pointer;
+}
+.button-all {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   align-items: center;
   text-align: center;
   color: var(--text-color);
   cursor: pointer;
   background-color: var(--link-color);
+  border: 0;
 }
+
 nav {
   font-family: "Roboto" sans-serif;
   font-style: normal;
@@ -98,6 +136,7 @@ a {
 }
 a:hover {
   color: var(--link-color);
+  box-shadow: 5px 5px 5px grey;
 }
 
 .hero-section {
@@ -114,22 +153,19 @@ a:hover {
 .main-section {
   text-align: center;
 }
+.photos {
+  width: 270px;
+  height: 260px;
+  left: 515px;
+  top: 1635px;
+
+  background: url(.jpg);
+  border-radius: 0px;
+}
+
 footer {
   background-color: var(--alternative-color);
   color: var(--text-color);
-}
-.footer-logo {
-  color: var(--text-color);
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
-  font-family: var(--logo-font-family);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
 }
 
 .footer-section {

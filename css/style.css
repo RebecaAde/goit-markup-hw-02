@@ -15,6 +15,9 @@
   font-size: 26px;
   line-height: 31px;
 }
+.global-logo {
+  color: #2196f3;
+}
 
 body {
   color: var(--alternative-color);
